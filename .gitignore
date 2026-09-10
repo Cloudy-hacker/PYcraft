@@ -1,0 +1,31 @@
+# Python cache files / Кэш-файлы Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Virtual environments / Виртуальные окружения
+env/
+venv/
+.venv/
+*.egg-info/
+dist/
+build/
+
+# Player/Server saves and configs / Сохранения и конфиги игроков/сервера
+world_save.json
+player_save.json
+drops_save.json
+players_data.json
+bans.json
+whitelist.json
+config.json
+*.dat
+
+# Archives and system files / Архивы и системные файлы
+*.zip
+*.rar
+*.7z
+.DS_Store
+Thumbs.db
